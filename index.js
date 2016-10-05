@@ -77,7 +77,6 @@ const SwipeoutBtn = React.createClass({
     return  (
       <NativeButton
         onPress={this.props.onPress}
-        onPressOut = {alert.("FIN")}
         style={styles.swipeoutBtnTouchable}
         underlayColor={this.props.underlayColor}
         disabled={this.props.disabled}
